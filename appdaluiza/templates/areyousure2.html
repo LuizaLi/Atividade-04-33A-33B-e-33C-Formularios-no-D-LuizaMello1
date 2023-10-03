@@ -1,0 +1,6 @@
+Voce tem certeza que deseja deletar a vantagem "{{desv.title}}"?
+<form method="post">
+  {% csrf_token %}
+  <input type="submit" value="sim" name="confirm">
+  <input type="submit" value="nao">
+</form>
